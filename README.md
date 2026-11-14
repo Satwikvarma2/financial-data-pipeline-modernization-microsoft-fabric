@@ -4,7 +4,7 @@ Modernizing enterprise budget and forecast data delivery with **Azure Synapse**,
 
 ## Architecture: Before vs. After
 
-![Budget and Forecast Data Delivery — Before vs After](assets/budget-forecast-before-after.svg)
+![Budget and Forecast Data Delivery — Before vs After](assets/Architecture_Fabric.png)
 
 The modernized design removes unnecessary intermediate SQL copy, backup/restore, and trigger-file handoff steps. Azure Synapse orchestrates direct Spark processing of financial Delta data into Fabric OneLake, while Azure SQL MetadataDB tracks publication state and watermarks.
 
